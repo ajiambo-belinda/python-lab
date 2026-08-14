@@ -30,7 +30,32 @@ Commit history shows the progression of a project over time. It records what cha
 
 ## Part C
 
-(We will add this section after writing the code.)
+Python's import system allows code to be organized into separate modules. In this project, `utils.py` contains reusable functions, while `main.py` imports and uses them. The statement `from utils import square, is_even, celsius_to_fahrenheit` makes those functions available inside `main.py`, allowing the main program to call them without rewriting the code. This improves code organization, readability, and reusability.
+
+
+
+The program was tested with three different inputs:
+
+Input: 5
+
+* Square: 25
+* Odd number
+* Fahrenheit: 41.0
+
+Input: 8
+
+* Square: 64
+* Even number
+* Fahrenheit: 46.4
+
+Input: 10
+
+* Square: 100
+* Even number
+* Fahrenheit: 50.0
+
+All outputs matched the expected calculations, confirming that the functions work correctly.
+
 
 ---
 
